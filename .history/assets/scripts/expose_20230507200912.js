@@ -44,6 +44,7 @@ function init() {
   }); 
 
   button.addEventListener("click", function() {
+    e.preventDefault();
     audio.play()
 
     if(select.value === "party-horn"){

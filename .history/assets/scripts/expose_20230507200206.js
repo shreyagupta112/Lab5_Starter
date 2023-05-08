@@ -9,7 +9,7 @@ function init() {
   const pic = document.querySelector("img");
   const audio = document.querySelector("audio");
   const volume2 = document.querySelector("#volume-controls img");
-  const jsConfetti = new JSConfetti()
+  const jsConfetti = new JSConfetti();
 
   select.addEventListener("change", (event) =>{
     if(select.value == 'air-horn') { 
